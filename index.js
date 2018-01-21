@@ -1,6 +1,6 @@
 function BoardMember(name, homeState, training) {
   this.name = name
-  this.homestate = homeState
+  this.homState = homeState
   this.training = training
   this.veto = function(){
     return "No, I must disagree"
