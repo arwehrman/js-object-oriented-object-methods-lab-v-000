@@ -1,7 +1,7 @@
 function BroadMember(name, homestate, training) {
-  this.name = name
-  this.homestate = homestate
-  this.training = training
+  this.name = name;
+  this.homestate = homestate;
+  this.training = training;
   this.veto = function(){
     console.log("No, I must disagree");
   }
