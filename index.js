@@ -1,10 +1,9 @@
-function boardMember(name, homestate, training) {
+function BoardMember(name, homestate, training) {
   this.name = name;
   this.homestate = homestate;
   this.training = training;
   this.veto = function(){
     console.log("No, I must disagree");
-  }
   this.approve = function(){
     console.log("You can do that!");
   }
