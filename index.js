@@ -15,6 +15,6 @@ function BroadMember(name, homestate, training) {
     console.log("You will see great things from Scuber.");
   }
   this.sayHi = function(){
-    console.log("Hi, my name is ${this.name}. I am from ${this.hometown}, and I was trained in ${this.training}.");
+    console.log(`Hi, my name is ${this.name}. I am from ${this.hometown}, and I was trained in ${this.training}.`);
   }
 }
